@@ -1,0 +1,53 @@
+body {
+    background-color: purple; /* Change this to any color you prefer */
+}
+.title {
+    color:white;
+    font-size:75px;
+    text-align:center;
+}
+.line {
+    background-color:white;
+    height: 5px;
+    width: 100%;
+}
+.Oline {
+    background-color:purple;
+    height: 20px;
+    width: 100%;
+}
+.headings-container {
+    display: flex;
+    justify-content: center;
+    gap: 40%; /* Adjust the gap between headings as needed */
+}
+.heading1, .heading2{
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between headings as needed */
+}
+.map {
+    width: 700px;
+    height: 500px;
+}
+.CanMan {
+    width: 400px;
+    height: 250px;
+}
+.key-box {
+    width: 395px;
+    height: 238px;
+    border: 5px solid white;
+    background-color: transparent;
+}
+.key {
+    color:white;
+    font-size:30px;
+    text-align:center;
+    text-decoration: underline;
+}
