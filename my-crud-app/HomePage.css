@@ -30,8 +30,24 @@ body {
 }
 .heading1, .heading2 {
     color: white;
+    background-color:transparent;
+    border:none;
     font-size: 40px;
     text-align: center;
+    text-decoration: none;
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Remove default padding */
+}
+.heading1:hover, .heading2:hover {
+    background-color: white;
+    color: purple;
+}
+.heading3 {
+    color: white;
+    background-color:transparent;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
     margin: 0; /* Remove default margin */
     padding: 5px; /* Remove default padding */
 }
