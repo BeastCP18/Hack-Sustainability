@@ -1,0 +1,28 @@
+body {
+    background-color: darkblue; /* Change this to any color you prefer */
+    color:white;
+    margin:30px;
+}
+.image-helper {
+    display: flex;
+    justify-content: center;
+    gap: 5%; /* Adjust the gap between headings as needed */
+}
+.image {
+    width: 50%;
+    height: 600px;
+}
+.heading1 {
+    color: white;
+    background-color:transparent;
+    border:none;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Remove default padding */
+}
+.heading1:hover {
+    background-color: white;
+    color: darkblue;
+}
