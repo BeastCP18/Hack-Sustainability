@@ -1,25 +1,26 @@
 body {
-    background-color: purple; /* Change this to any color you prefer */
+    background-color: #095256; /* Change this to any color you prefer */
+    font-family: Oswald,sans-serif;
 }
 .title {
-    color:white;
+    color:#BB9F06;
     font-size:75px;
     text-align:center;
     margin:0; /* Remove default margin */
     padding: 5px; /* Remove default padding */
 }
 .line {
-    background-color:white;
+    background-color:#BB9F06;
     height: 5px;
     width: 100%;
 }
 .upLine {
-    background-color:white;
+    background-color:#BB9F06;
     height: 57px;
     width: 5px;
 }
 .Oline {
-    background-color:purple;
+    background-color:#095256;
     height: 20px;
     width: 100%;
 }
@@ -29,7 +30,7 @@ body {
     gap: 15%; /* Adjust the gap between headings as needed */
 }
 .heading1, .heading2 {
-    color: white;
+    color: #BB9F06;
     background-color:transparent;
     border:none;
     font-size: 40px;
@@ -39,11 +40,12 @@ body {
     padding: 5px; /* Remove default padding */
 }
 .heading1:hover, .heading2:hover {
-    background-color: white;
-    color: purple;
+    background-color: #BB9F06;
+    color: #095256;
+    cursor: pointer;
 }
 .heading3 {
-    color: white;
+    color: #BB9F06;
     background-color:transparent;
     font-size: 40px;
     text-align: center;
@@ -59,38 +61,53 @@ body {
 .map {
     width: 40%;
     height: 500px;
+    border:2px solid black;
 }
 .CanMan {
     width: 400px;
     height: 250px;
 }
 .key-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 390px;
     height: 235px;
-    border: 5px solid white;
+    border: 5px solid #BB9F06;
     background-color: transparent;
 }
 .key {
-    color:white;
-    font-size:35px;
-    text-align:center;
+    color: #BB9F06;
+    font-size: 35px;
+    text-align: center;
     text-decoration: bold;
+    margin-bottom: 10px; /* Add some space between key and key-image */
 }
+.key-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
     gap: 10%; /* Adjust the gap between headings as needed */
 }
 .button {
-    background-color: white;
-    color: purple;
+    background-color: #BB9F06;
+    color: #095256;
     font-size: 50px;
-    border: 5px solid white;
+    border: 5px solid #BB9F06;
     padding: 25px 60px;
     cursor: pointer;
     border-radius: 5px;
 }
 .button:hover {
-    background-color: purple;
-    color: white;
+    background-color: #095256;
+    color: #BB9F06;
+    cursor: pointer;
 }
